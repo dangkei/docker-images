@@ -1,7 +1,7 @@
 # docker-images
 
 ### asop-dev environment
-> you can replace the volumes by yourself local mysql & redis  conf file and data file.
+> you can replace the volumes options by yourself local mysql & redis  conf file and data file.
 
 > 'docker-compose.yml'
 
