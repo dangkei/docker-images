@@ -1,6 +1,9 @@
 # docker-images
 
 ### asop-dev environment
+> you can replace the volumes by yourself local mysql & redis  conf file and data file.
+
+> 'docker-compose.yml'
 
 ```yml
 services:
@@ -33,3 +36,10 @@ services:
     expose:
       - "6379"
 ```
+
+> run command line and cd into docker-compose.yml file directory and run command:
+```bash
+docker-compose -f docker-compose.yml up -d
+```
+
+
